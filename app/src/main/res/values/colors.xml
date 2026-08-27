@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Cyber Brand Colors -->
+    <color name="obsidian">#0D0D0D</color>
+    <color name="obsidian_elevated">#141414</color>
+    <color name="obsidian_card">#1A1A1A</color>
+    <color name="obsidian_border">#262626</color>
+    
+    <color name="electric_lime">#C8FF00</color>
+    <color name="electric_lime_dim">#98D600</color>
+    <color name="electric_lime_10">#1AC8FF00</color>
+    <color name="electric_lime_20">#33C8FF00</color>
+    
+    <color name="cream">#EAE8E3</color>
+    <color name="cream_muted">#A3A099</color>
+    <color name="cream_subtle">#666666</color>
+
+    <color name="accent_red">#FF4D4D</color>
+    <color name="accent_blue">#38BDF8</color>
+    <color name="accent_green">#10B981</color>
+</resources>

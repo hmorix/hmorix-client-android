@@ -1,0 +1,61 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <!-- Outer Hexagon Shield -->
+    <path
+        android:pathData="M24,3.06 L42.14,13.53 L42.14,34.47 L24,44.94 L5.86,34.47 L5.86,13.53 Z"
+        android:fillColor="#0D0D0D"
+        android:strokeColor="#C8FF00"
+        android:strokeWidth="1.5"
+        android:strokeMiterLimit="4" />
+
+    <!-- Center Stem Top & Bottom -->
+    <path
+        android:pathData="M24,3.06 L24,17.7"
+        android:strokeColor="#C8FF00"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="square" />
+    <path
+        android:pathData="M24,29.46 L24,44.94"
+        android:strokeColor="#C8FF00"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="square" />
+
+    <!-- Main Horizontal Crossbar -->
+    <path
+        android:pathData="M10.78,23.72 L37.22,23.72"
+        android:strokeColor="#C8FF00"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="square" />
+
+    <!-- Left Crown Roof & Upper Arch -->
+    <path
+        android:pathData="M10.78,23.72 L10.78,16.3 L18.06,12.1 L18.06,20.11 L20.3,20.11 C22.32,20.11 23.86,19.38 24,17.7"
+        android:strokeColor="#C8FF00"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="square" />
+
+    <!-- Right Crown Roof & Upper Arch -->
+    <path
+        android:pathData="M37.22,23.72 L37.22,16.3 L29.94,12.1 L29.94,20.11 L27.7,20.11 C25.68,20.11 24.14,19.38 24,17.7"
+        android:strokeColor="#C8FF00"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="square" />
+
+    <!-- Left Spire & Bottom Hook & Lower Arch -->
+    <path
+        android:pathData="M15.18,18.46 L15.18,35.06 L18.06,36.74 L18.06,28.06 L20.3,28.06 C22.32,28.06 23.86,28.48 24,29.46"
+        android:strokeColor="#C8FF00"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="square" />
+
+    <!-- Right Spire & Bottom Hook & Lower Arch -->
+    <path
+        android:pathData="M32.82,18.46 L32.82,35.06 L29.94,36.74 L29.94,28.06 L27.7,28.06 C25.68,28.06 24.14,28.48 24,29.46"
+        android:strokeColor="#C8FF00"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="square" />
+</vector>

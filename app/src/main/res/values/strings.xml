@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">HMorix Client</string>
+    <string name="nav_portal">Portal</string>
+    <string name="nav_tickets">Tickets</string>
+    <string name="nav_invoices">Invoices</string>
+    <string name="nav_ai">AI Assistant</string>
+    <string name="nav_profile">Profile</string>
+    
+    <!-- Auth -->
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Create Account</string>
+    <string name="email_hint">client@company.com</string>
+    <string name="password_hint">Password</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="client_portal_subtitle">Enterprise Client Portal &amp; AI Solutions</string>
+
+    <!-- Portal -->
+    <string name="active_projects">Active Projects</string>
+    <string name="open_tickets">Open Tickets</string>
+    <string name="invoices_due">Invoices Due</string>
+    <string name="team_members">Team Members</string>
+    <string name="submit_ticket">Submit Support Ticket</string>
+    <string name="ticket_subject">Subject</string>
+    <string name="ticket_desc">Describe your request...</string>
+</resources>
