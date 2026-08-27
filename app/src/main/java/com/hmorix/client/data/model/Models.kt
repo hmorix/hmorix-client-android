@@ -1,4 +1,4 @@
-package in.hmorix.client.data.model
+package com.hmorix.client.data.model
 
 import com.google.gson.annotations.SerializedName
 

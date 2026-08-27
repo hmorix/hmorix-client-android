@@ -1,4 +1,4 @@
-package in.hmorix.client.ui.settings
+package com.hmorix.client.ui.settings
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -17,10 +17,10 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import in.hmorix.client.HMorixApp
-import in.hmorix.client.R
-import in.hmorix.client.data.repository.PortalRepository
-import in.hmorix.client.ui.theme.*
+import com.hmorix.client.HMorixApp
+import com.hmorix.client.R
+import com.hmorix.client.data.repository.PortalRepository
+import com.hmorix.client.ui.theme.*
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

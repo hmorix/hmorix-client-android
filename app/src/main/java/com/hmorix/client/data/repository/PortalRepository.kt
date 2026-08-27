@@ -1,8 +1,8 @@
-package in.hmorix.client.data.repository
+package com.hmorix.client.data.repository
 
-import in.hmorix.client.HMorixApp
-import in.hmorix.client.data.api.HMorixApiService
-import in.hmorix.client.data.model.*
+import com.hmorix.client.HMorixApp
+import com.hmorix.client.data.api.HMorixApiService
+import com.hmorix.client.data.model.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 

@@ -1,7 +1,7 @@
-package in.hmorix.client
+package com.hmorix.client
 
 import android.app.Application
-import in.hmorix.client.data.local.SessionManager
+import com.hmorix.client.data.local.SessionManager
 
 class HMorixApp : Application() {
     lateinit var sessionManager: SessionManager

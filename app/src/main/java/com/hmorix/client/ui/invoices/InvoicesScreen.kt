@@ -1,4 +1,4 @@
-package in.hmorix.client.ui.invoices
+package com.hmorix.client.ui.invoices
 
 import android.content.Intent
 import android.net.Uri
@@ -16,9 +16,9 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import in.hmorix.client.data.model.Invoice
-import in.hmorix.client.data.repository.PortalRepository
-import in.hmorix.client.ui.theme.*
+import com.hmorix.client.data.model.Invoice
+import com.hmorix.client.data.repository.PortalRepository
+import com.hmorix.client.ui.theme.*
 import kotlinx.coroutines.launch
 import java.util.Locale
 

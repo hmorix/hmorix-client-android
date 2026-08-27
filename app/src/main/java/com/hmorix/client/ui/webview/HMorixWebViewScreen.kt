@@ -1,4 +1,4 @@
-package in.hmorix.client.ui.webview
+package com.hmorix.client.ui.webview
 
 import android.annotation.SuppressLint
 import android.graphics.Bitmap
@@ -11,8 +11,8 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.viewinterop.AndroidView
-import in.hmorix.client.HMorixApp
-import in.hmorix.client.ui.theme.*
+import com.hmorix.client.HMorixApp
+import com.hmorix.client.ui.theme.*
 
 @SuppressLint("SetJavaScriptEnabled")
 @Composable

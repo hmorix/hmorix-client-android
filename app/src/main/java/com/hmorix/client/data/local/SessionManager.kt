@@ -1,11 +1,11 @@
-package in.hmorix.client.data.local
+package com.hmorix.client.data.local
 
 import android.content.Context
 import android.content.SharedPreferences
 import androidx.security.crypto.EncryptedSharedPreferences
 import androidx.security.crypto.MasterKey
 import com.google.gson.Gson
-import in.hmorix.client.data.model.User
+import com.hmorix.client.data.model.User
 
 class SessionManager(context: Context) {
     private val prefs: SharedPreferences

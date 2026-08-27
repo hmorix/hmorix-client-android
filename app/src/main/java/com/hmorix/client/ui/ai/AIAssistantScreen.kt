@@ -1,4 +1,4 @@
-package in.hmorix.client.ui.ai
+package com.hmorix.client.ui.ai
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -19,9 +19,9 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import in.hmorix.client.data.model.AIChatMessage
-import in.hmorix.client.data.repository.PortalRepository
-import in.hmorix.client.ui.theme.*
+import com.hmorix.client.data.model.AIChatMessage
+import com.hmorix.client.data.repository.PortalRepository
+import com.hmorix.client.ui.theme.*
 import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalMaterial3Api::class)

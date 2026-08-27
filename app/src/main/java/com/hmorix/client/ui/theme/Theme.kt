@@ -1,4 +1,4 @@
-package in.hmorix.client.ui.theme
+package com.hmorix.client.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.*

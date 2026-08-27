@@ -1,4 +1,4 @@
-package in.hmorix.client.ui
+package com.hmorix.client.ui
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -16,16 +16,16 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
-import in.hmorix.client.HMorixApp
-import in.hmorix.client.data.repository.PortalRepository
-import in.hmorix.client.ui.ai.AIAssistantScreen
-import in.hmorix.client.ui.auth.SignInScreen
-import in.hmorix.client.ui.auth.SignUpScreen
-import in.hmorix.client.ui.invoices.InvoicesScreen
-import in.hmorix.client.ui.portal.ClientPortalScreen
-import in.hmorix.client.ui.settings.SettingsScreen
-import in.hmorix.client.ui.theme.*
-import in.hmorix.client.ui.tickets.TicketsScreen
+import com.hmorix.client.HMorixApp
+import com.hmorix.client.data.repository.PortalRepository
+import com.hmorix.client.ui.ai.AIAssistantScreen
+import com.hmorix.client.ui.auth.SignInScreen
+import com.hmorix.client.ui.auth.SignUpScreen
+import com.hmorix.client.ui.invoices.InvoicesScreen
+import com.hmorix.client.ui.portal.ClientPortalScreen
+import com.hmorix.client.ui.settings.SettingsScreen
+import com.hmorix.client.ui.theme.*
+import com.hmorix.client.ui.tickets.TicketsScreen
 
 sealed class Screen(val route: String, val title: String, val icon: ImageVector) {
     object Portal : Screen("portal", "Portal", Icons.Default.Dashboard)

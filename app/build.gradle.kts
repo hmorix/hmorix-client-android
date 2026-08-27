@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "in.hmorix.client"
+    namespace = "com.hmorix.client"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "in.hmorix.client"
+        applicationId = "com.hmorix.client"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

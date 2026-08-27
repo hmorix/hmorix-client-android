@@ -1,4 +1,4 @@
-package in.hmorix.client.ui.auth
+package com.hmorix.client.ui.auth
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -26,9 +26,9 @@ import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import in.hmorix.client.R
-import in.hmorix.client.data.repository.PortalRepository
-import in.hmorix.client.ui.theme.*
+import com.hmorix.client.R
+import com.hmorix.client.data.repository.PortalRepository
+import com.hmorix.client.ui.theme.*
 import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalMaterial3Api::class)

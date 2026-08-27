@@ -1,7 +1,7 @@
-package in.hmorix.client.data.api
+package com.hmorix.client.data.api
 
-import in.hmorix.client.HMorixApp
-import in.hmorix.client.data.model.*
+import com.hmorix.client.HMorixApp
+import com.hmorix.client.data.model.*
 import okhttp3.Cookie
 import okhttp3.CookieJar
 import okhttp3.HttpUrl

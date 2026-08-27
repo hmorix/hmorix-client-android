@@ -11,7 +11,7 @@
 -keepclassmembers class * {
     @com.google.gson.annotations.SerializedName <fields>;
 }
--keep class in.hmorix.client.data.model.** { *; }
+-keep class com.hmorix.client.data.model.** { *; }
 
 # WebKit Javascript Interface
 -keepclassmembers class * {
