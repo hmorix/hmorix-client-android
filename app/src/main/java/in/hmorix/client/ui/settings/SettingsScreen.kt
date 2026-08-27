@@ -123,7 +123,7 @@ fun SettingsScreen(
                             colors = ListItemDefaults.colors(containerColor = ObsidianElevated)
                         )
 
-                        Divider(color = ObsidianBorder)
+                        HorizontalDivider(color = ObsidianBorder)
 
                         ListItem(
                             headlineContent = { Text("Cyber Theme", color = Cream, fontSize = 14.sp) },
@@ -132,7 +132,7 @@ fun SettingsScreen(
                             colors = ListItemDefaults.colors(containerColor = ObsidianElevated)
                         )
 
-                        Divider(color = ObsidianBorder)
+                        HorizontalDivider(color = ObsidianBorder)
 
                         ListItem(
                             headlineContent = { Text("Client App Version", color = Cream, fontSize = 14.sp) },

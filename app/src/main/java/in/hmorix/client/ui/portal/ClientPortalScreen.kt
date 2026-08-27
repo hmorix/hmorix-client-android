@@ -277,7 +277,7 @@ fun ClientPortalScreen(
                                 }
                                 Spacer(modifier = Modifier.height(4.dp))
                                 LinearProgressIndicator(
-                                    progress = project.progress / 100f,
+                                    progress = { project.progress / 100f },
                                     color = ElectricLime,
                                     trackColor = ObsidianCard,
                                     modifier = Modifier

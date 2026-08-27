@@ -1,0 +1,27 @@
+Unresolved reference: ElectricLime
+e: file:///home/runner/work/hmorix-client-android/hmorix-client-android/app/src/main/java/in/hmorix/client/ui/webview/HMorixWebViewScreen.kt:87:30 Unresolved reference: ObsidianBg
+> Task :app:compileDebugKotlin FAILED
+> Task :app:mergeExtDexDebug
+FAILURE: Build failed with an exception.
+23 actionable tasks: 23 executed
+* What went wrong:
+Execution failed for task ':app:compileDebugKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+* Try:
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:compileDebugKotlin'.
+	at 
+
+
+
+
+
+at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.run(DefaultConditionalExecutionQueue.java:126)
+	... 2 more
+BUILD FAILED in 2m 54s
+Error: Process completed with exit code 1.
+

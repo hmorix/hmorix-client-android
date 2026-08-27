@@ -12,8 +12,6 @@
     <application
         android:name=".HMorixApp"
         android:allowBackup="true"
-        android:dataExtractionRules="@xml/file_paths"
-        android:fullBackupContent="@xml/file_paths"
         android:icon="@drawable/ic_logo_hex"
         android:label="@string/app_name"
         android:roundIcon="@drawable/ic_logo_hex"

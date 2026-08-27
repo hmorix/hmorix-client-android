@@ -6,15 +6,13 @@ import android.webkit.*
 import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
-import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.viewinterop.AndroidView
 import in.hmorix.client.HMorixApp
-import in.hmorix.client.ui.theme.ElectricLime
-import in.hmorix.client.ui.theme.ObsidianBg
+import in.hmorix.client.ui.theme.*
 
 @SuppressLint("SetJavaScriptEnabled")
 @Composable
@@ -82,7 +80,7 @@ fun HMorixWebViewScreen(
 
         if (isLoading && progress < 100) {
             LinearProgressIndicator(
-                progress = progress / 100f,
+                progress = { progress / 100f },
                 color = ElectricLime,
                 trackColor = ObsidianBg,
                 modifier = Modifier.fillMaxWidth().height(3.dp)
